@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'SideMenuContainer' => ['Pod/Assets/*.png']
   }
+  s.dependency 'Cartography'
 end
