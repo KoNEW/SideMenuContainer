@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9C1148361CA1F5C40026CCD9 /* SimpleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1148351CA1F5C40026CCD9 /* SimpleController.swift */; };
+		9C1148381CA1F5DC0026CCD9 /* AdvancedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1148371CA1F5DC0026CCD9 /* AdvancedController.swift */; };
+		9C11483A1CA1F62B0026CCD9 /* CarouselController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1148391CA1F62B0026CCD9 /* CarouselController.swift */; };
 		ADC609B928BCE6103D4BA4E7 /* Pods_SideMenuContainer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBAB805C87AE18A00A57E05 /* Pods_SideMenuContainer_Example.framework */; };
 		CE4884E3E176266F46B37522 /* Pods_SideMenuContainer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5996EF074FB99423106CA99A /* Pods_SideMenuContainer_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -33,7 +35,6 @@
 		607FACD01AFB9204008FA782 /* SideMenuContainer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuContainer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -44,6 +45,9 @@
 		8315471EF9ED8D034491A314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8FBAB805C87AE18A00A57E05 /* Pods_SideMenuContainer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenuContainer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9810EB983639DF2F25CD1A5F /* SideMenuContainer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SideMenuContainer.podspec; path = ../SideMenuContainer.podspec; sourceTree = "<group>"; };
+		9C1148351CA1F5C40026CCD9 /* SimpleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleController.swift; sourceTree = "<group>"; };
+		9C1148371CA1F5DC0026CCD9 /* AdvancedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedController.swift; sourceTree = "<group>"; };
+		9C1148391CA1F62B0026CCD9 /* CarouselController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselController.swift; sourceTree = "<group>"; };
 		9FF6DA59079959C8BFB20951 /* Pods-SideMenuContainer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuContainer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenuContainer_Tests/Pods-SideMenuContainer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DCCA63D1727BFF4291A12E77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F374F4426D0ED35FF9E5CC4B /* Pods-SideMenuContainer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuContainer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenuContainer_Example/Pods-SideMenuContainer_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				9C1148351CA1F5C40026CCD9 /* SimpleController.swift */,
+				9C1148371CA1F5DC0026CCD9 /* AdvancedController.swift */,
+				9C1148391CA1F62B0026CCD9 /* CarouselController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -135,8 +141,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -359,7 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9C1148381CA1F5DC0026CCD9 /* AdvancedController.swift in Sources */,
+				9C11483A1CA1F62B0026CCD9 /* CarouselController.swift in Sources */,
+				9C1148361CA1F5C40026CCD9 /* SimpleController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

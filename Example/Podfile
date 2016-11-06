@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'SideMenuContainer_Example', :exclusive => true do
   pod 'SideMenuContainer', :path => '../'
+  pod 'iCarousel'
 end
 
 target 'SideMenuContainer_Tests', :exclusive => true do

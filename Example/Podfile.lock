@@ -1,19 +1,23 @@
 PODS:
+  - Cartography (0.6.0)
   - FBSnapshotTestCase (2.0.7):
     - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
   - FBSnapshotTestCase/Core (2.0.7)
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
+  - iCarousel (1.8.2)
   - Nimble (3.0.0)
   - Nimble-Snapshots (3.0.0):
     - FBSnapshotTestCase (~> 2.0.7)
     - Nimble
     - Quick
   - Quick (0.8.0)
-  - SideMenuContainer (0.1.0)
+  - SideMenuContainer (1.0.0):
+    - Cartography
 
 DEPENDENCIES:
   - FBSnapshotTestCase
+  - iCarousel
   - Nimble (= 3.0.0)
   - Nimble-Snapshots
   - Quick (~> 0.8.0)
@@ -24,10 +28,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  iCarousel: 67c8a43da5a46795b56aadfc96cd36a16f6149b2
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   Nimble-Snapshots: ab41dd737dcd33a0b0cb005a30465fef70b7207a
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
-  SideMenuContainer: 23108f5177ef425bbcfac60242391148e2f94d6e
+  SideMenuContainer: a515eefbe1fce2df9e6e9e5f49bc80fc5aab6adf
 
 COCOAPODS: 0.39.0
